@@ -2,14 +2,14 @@ all:
   
   cre8SagePay:
     VPSProtocol:       2.23
-    Vendor:            m1cashcarryltdt
+    Vendor:            MY_VENDOR_ID
     TxType:            PAYMENT
     
-    encryption_key:    'tMHn66JCvLJak2yC'
+    encryption_key:    'KEY_RECEIVED_FROM_SAGE'
     url:               'https://test.sagepay.com/gateway/service/vspform-register.vsp'
     
     Currency:          GBP
-    Description:       'Yum Yum Thai Restaurant Online Order'
+    Description:       'XXXYYY Online Order'
     
     SuccessURL:        @paymentOk
     FailureURL:        @paymentFail
